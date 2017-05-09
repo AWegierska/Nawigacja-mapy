@@ -6,8 +6,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Dodawanie położeń robota do mapy.vi" Type="VI" URL="../Dodawanie położeń robota do mapy.vi"/>
 	<Item Name="Pobranie odległości do punktu docelowego z listy współrzędnych.vi" Type="VI" URL="../Pobranie odległości do punktu docelowego z listy współrzędnych.vi"/>
 	<Item Name="Wyznaczanie prędkości kół i odległości do punktu docelowego.vi" Type="VI" URL="../Wyznaczanie prędkości kół i odległości do punktu docelowego.vi"/>
 	<Item Name="Wyznaczenie odległości robota od sartu na podstawie współrzędnych.vi" Type="VI" URL="../Wyznaczenie odległości robota od sartu na podstawie współrzędnych.vi"/>
-	<Item Name="Zmiana wartości.vi" Type="VI" URL="../../Zmiana wartości.vi"/>
 </Library>
