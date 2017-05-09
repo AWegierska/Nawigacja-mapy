@@ -1,0 +1,9 @@
+[My Computer]
+My Computer = "192.168.179.1"
+
+[NI-sbRIO9631-152AAE4]
+NI-sbRIO9631-152AAE4 = "192.168.1.107"
+
+[RT Single-Board RIO]
+RT Single-Board RIO = "0.0.0.0"
+
