@@ -6,6 +6,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Aktualizacja wyglądu mapy.vi" Type="VI" URL="../Aktualizacja wyglądu mapy.vi"/>
 	<Item Name="Centrowanie położenia.vi" Type="VI" URL="../Centrowanie położenia.vi"/>
 	<Item Name="Dodawanie punktów z listy współrzędnych.vi" Type="VI" URL="../Dodawanie punktów z listy współrzędnych.vi"/>
 	<Item Name="Narysowanie przesuniętej mapy.vi" Type="VI" URL="../Narysowanie przesuniętej mapy.vi"/>
