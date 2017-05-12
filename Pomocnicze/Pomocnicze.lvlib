@@ -6,8 +6,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Aktualizacja ostatniego zaznaczonego położenia na mapie.vi" Type="VI" URL="../Aktualizacja ostatniego zaznaczonego położenia na mapie.vi"/>
+	<Item Name="Dodanie zaznaczonego punktu na podstawie odległości.vi" Type="VI" URL="../Dodanie zaznaczonego punktu na podstawie odległości.vi"/>
 	<Item Name="Dodawanie położeń robota do mapy.vi" Type="VI" URL="../Dodawanie położeń robota do mapy.vi"/>
+	<Item Name="dorysowanie trasy mapy.vi" Type="VI" URL="../dorysowanie trasy mapy.vi"/>
+	<Item Name="Ograniczzenie zadanej predkości.vi" Type="VI" URL="../Ograniczzenie zadanej predkości.vi"/>
 	<Item Name="Pobranie odległości do punktu docelowego z listy współrzędnych.vi" Type="VI" URL="../Pobranie odległości do punktu docelowego z listy współrzędnych.vi"/>
+	<Item Name="Ustalenie nowego przesunięcia mapy po mose down-up.vi" Type="VI" URL="../Ustalenie nowego przesunięcia mapy po mose down-up.vi"/>
 	<Item Name="Wyznaczanie prędkości kół i odległości do punktu docelowego.vi" Type="VI" URL="../Wyznaczanie prędkości kół i odległości do punktu docelowego.vi"/>
 	<Item Name="Wyznaczenie odległości robota od sartu na podstawie współrzędnych.vi" Type="VI" URL="../Wyznaczenie odległości robota od sartu na podstawie współrzędnych.vi"/>
+	<Item Name="Zatwierdzenie ustalonego zakresu.vi" Type="VI" URL="../Zatwierdzenie ustalonego zakresu.vi"/>
 </Library>
