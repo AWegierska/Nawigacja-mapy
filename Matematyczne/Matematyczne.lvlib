@@ -6,7 +6,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Położenie robota z uwzględnieniem jego ewentualnej zmiany.vi" Type="VI" URL="../../Pliki robota/Położenie robota z uwzględnieniem jego ewentualnej zmiany.vi"/>
+	<Item Name="Położenie robota z uwzględnieniem jego ewentualnej zmiany.vi" Type="VI" URL="../Położenie robota z uwzględnieniem jego ewentualnej zmiany.vi"/>
 	<Item Name="Przeliczanie azymutu na kąt i redukcja zakresu stopni.vi" Type="VI" URL="../Przeliczanie azymutu na kąt i redukcja zakresu stopni.vi"/>
 	<Item Name="Przeliczanie kąta na azymut.vi" Type="VI" URL="../Przeliczanie kąta na azymut.vi"/>
 	<Item Name="Różnica azymutów sprowadzona do zakresu +-180 stopni.vi" Type="VI" URL="../Różnica azymutów sprowadzona do zakresu +-180 stopni.vi"/>

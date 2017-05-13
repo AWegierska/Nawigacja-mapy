@@ -17,6 +17,5 @@
 	<Item Name="Rysowanie strzałki pod zadanym kątem.vi" Type="VI" URL="../Rysowanie strzałki pod zadanym kątem.vi"/>
 	<Item Name="Rysowanie znacznika.vi" Type="VI" URL="../Rysowanie znacznika.vi"/>
 	<Item Name="Ustawienie ostatniego położenia na podstawie odległości od punktu startowego.vi" Type="VI" URL="../Ustawienie ostatniego położenia na podstawie odległości od punktu startowego.vi"/>
-	<Item Name="Ustawienie położenia z uwzględnieniem położenia początkowego i przesunięcia.vi" Type="VI" URL="../Ustawienie położenia z uwzględnieniem położenia początkowego i przesunięcia.vi"/>
 	<Item Name="Wgrywanie mapy terenu.vi" Type="VI" URL="../Wgrywanie mapy terenu.vi"/>
 </Library>

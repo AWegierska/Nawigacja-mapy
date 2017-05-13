@@ -10,7 +10,7 @@
 	<Item Name="Dodanie zaznaczonego punktu na podstawie odległości.vi" Type="VI" URL="../Dodanie zaznaczonego punktu na podstawie odległości.vi"/>
 	<Item Name="Dodawanie położeń robota do mapy.vi" Type="VI" URL="../Dodawanie położeń robota do mapy.vi"/>
 	<Item Name="dorysowanie trasy mapy.vi" Type="VI" URL="../dorysowanie trasy mapy.vi"/>
-	<Item Name="Ograniczzenie zadanej predkości.vi" Type="VI" URL="../Ograniczzenie zadanej predkości.vi"/>
+	<Item Name="Ograniczenie zadanej predkości.vi" Type="VI" URL="../Ograniczenie zadanej predkości.vi"/>
 	<Item Name="Pobranie odległości do punktu docelowego z listy współrzędnych.vi" Type="VI" URL="../Pobranie odległości do punktu docelowego z listy współrzędnych.vi"/>
 	<Item Name="Ustalenie nowego przesunięcia mapy po mose down-up.vi" Type="VI" URL="../Ustalenie nowego przesunięcia mapy po mose down-up.vi"/>
 	<Item Name="Wyznaczanie prędkości kół i odległości do punktu docelowego.vi" Type="VI" URL="../Wyznaczanie prędkości kół i odległości do punktu docelowego.vi"/>

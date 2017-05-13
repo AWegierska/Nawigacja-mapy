@@ -5,7 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="generator współrzędnych GPS.vi" Type="VI" URL="../Pliki testowe/generator współrzędnych GPS.vi"/>
-	<Item Name="Kinematyka prosta.vi" Type="VI" URL="../Pliki robota/Kinematyka prosta.vi"/>
 	<Item Name="Konwersja wsp.lvlib" Type="Library" URL="../Konwersja współrzędnych/Konwersja wsp.lvlib"/>
 	<Item Name="Matematyczne.lvlib" Type="Library" URL="../Matematyczne/Matematyczne.lvlib"/>
 	<Item Name="Obsługa grafiki mapy.lvlib" Type="Library" URL="../Obsługa grafiki mapy/Obsługa grafiki mapy.lvlib"/>
