@@ -8,14 +8,15 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Aktualizacja wyglądu mapy.vi" Type="VI" URL="../Aktualizacja wyglądu mapy.vi"/>
 	<Item Name="Centrowanie położenia.vi" Type="VI" URL="../Centrowanie położenia.vi"/>
+	<Item Name="Dodanie wskazanego punktu z listy współrzędnych do mapy.vi" Type="VI" URL="../Dodanie wskazanego punktu z listy współrzędnych do mapy.vi"/>
 	<Item Name="Dodawanie punktów z listy współrzędnych.vi" Type="VI" URL="../Dodawanie punktów z listy współrzędnych.vi"/>
 	<Item Name="Narysowanie przesuniętej mapy.vi" Type="VI" URL="../Narysowanie przesuniętej mapy.vi"/>
-	<Item Name="Rysowanie prostej pod zadanym kątem.vi" Type="VI" URL="../Rysowanie prostej pod zadanym kątem.vi"/>
+	<Item Name="Przeładowanie mapy terenu.vi" Type="VI" URL="../../Pomocnicze/Przeładowanie mapy terenu.vi"/>
+	<Item Name="Przeładowanie punktu startowego i punktów docelowych.vi" Type="VI" URL="../Przeładowanie punktu startowego i punktów docelowych.vi"/>
 	<Item Name="Rysowanie punktu.vi" Type="VI" URL="../Rysowanie punktu.vi"/>
 	<Item Name="Rysowanie skali mapy.vi" Type="VI" URL="../Rysowanie skali mapy.vi"/>
-	<Item Name="Rysowanie strzałki kierunkowej.vi" Type="VI" URL="../Rysowanie strzałki kierunkowej.vi"/>
-	<Item Name="Rysowanie strzałki pod zadanym kątem.vi" Type="VI" URL="../Rysowanie strzałki pod zadanym kątem.vi"/>
 	<Item Name="Rysowanie znacznika.vi" Type="VI" URL="../Rysowanie znacznika.vi"/>
 	<Item Name="Ustawienie ostatniego położenia na podstawie odległości od punktu startowego.vi" Type="VI" URL="../Ustawienie ostatniego położenia na podstawie odległości od punktu startowego.vi"/>
 	<Item Name="Wgrywanie mapy terenu.vi" Type="VI" URL="../Wgrywanie mapy terenu.vi"/>
+	<Item Name="Zmiana ustawienia położenia startowego po zmianie rozmiaru mapy.vi" Type="VI" URL="../Zmiana ustawienia położenia startowego po zmianie rozmiaru mapy.vi"/>
 </Library>
