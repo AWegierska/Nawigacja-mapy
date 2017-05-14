@@ -16,9 +16,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Aktualizacja położenia i orientacji z odczytu GPS.vi" Type="VI" URL="../Pliki robota/Aktualizacja położenia i orientacji z odczytu GPS.vi"/>
 		<Item Name="Biblioteka moduł map v3.lvlib" Type="Library" URL="../Biblioteka moduł map v3.lvlib"/>
-		<Item Name="Kinematyka prosta.vi" Type="VI" URL="../Pliki robota/Kinematyka prosta.vi"/>
 		<Item Name="Main modul map v3 GPS + kinematyka.vi" Type="VI" URL="../Main modul map v3 GPS + kinematyka.vi"/>
 		<Item Name="regulator fuzzy.fs" Type="Document" URL="../regulator fuzzy.fs"/>
 		<Item Name="Dependencies" Type="Dependencies">
