@@ -6,6 +6,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Aktualizacja listy z punktami + startem.vi" Type="VI" URL="../Aktualizacja listy z punktami + startem.vi"/>
 	<Item Name="Aktualizacja listy z punktami do usunięcia.vi" Type="VI" URL="../Aktualizacja listy z punktami do usunięcia.vi"/>
 	<Item Name="Aktualizacja odległości.vi" Type="VI" URL="../Aktualizacja odległości.vi"/>
 	<Item Name="Dodanie punktu do listy punkty na podstawie współrzędnych geograficznych.vi" Type="VI" URL="../Dodanie punktu do listy punkty na podstawie współrzędnych geograficznych.vi"/>

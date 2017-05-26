@@ -12,8 +12,10 @@
 	<Item Name="dorysowanie trasy mapy.vi" Type="VI" URL="../dorysowanie trasy mapy.vi"/>
 	<Item Name="Ograniczenie zadanej predkości.vi" Type="VI" URL="../Ograniczenie zadanej predkości.vi"/>
 	<Item Name="Pobranie odległości do punktu docelowego z listy współrzędnych.vi" Type="VI" URL="../Pobranie odległości do punktu docelowego z listy współrzędnych.vi"/>
+	<Item Name="Sprawdzenie czy robot znajduje się w zadanym promieniu od wskazanego punktu.vi" Type="VI" URL="../Sprawdzenie czy robot znajduje się w zadanym promieniu od wskazanego punktu.vi"/>
 	<Item Name="Ustalenie nowego przesunięcia mapy po mose down-up.vi" Type="VI" URL="../Ustalenie nowego przesunięcia mapy po mose down-up.vi"/>
 	<Item Name="Wyznaczanie prędkości kół i odległości do punktu docelowego.vi" Type="VI" URL="../Wyznaczanie prędkości kół i odległości do punktu docelowego.vi"/>
 	<Item Name="Wyznaczenie odległości robota od sartu na podstawie współrzędnych.vi" Type="VI" URL="../Wyznaczenie odległości robota od sartu na podstawie współrzędnych.vi"/>
+	<Item Name="zakres wprowadzanego pixela do 1400 pixeli od startu.vi" Type="VI" URL="../zakres wprowadzanego pixela do 1400 pixeli od startu.vi"/>
 	<Item Name="Zatwierdzenie ustalonego zakresu.vi" Type="VI" URL="../Zatwierdzenie ustalonego zakresu.vi"/>
 </Library>
