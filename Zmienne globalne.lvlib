@@ -6,6 +6,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="latitude.latitude (deg)" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -26,7 +27,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Vl obr na min" Type="Variable">
+	<Item Name="Orientacja Z" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:SingleWriter" Type="Str">True</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -35,12 +36,42 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Vr obr na min" Type="Variable">
+	<Item Name="Pozycja X" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:SingleWriter" Type="Str">True</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Pozycja Y" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:SingleWriter" Type="Str">True</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="V - prędkość postępowa.vi" Type="VI" URL="../Zmienne/V - prędkość postępowa.vi"/>
+	<Item Name="Vl obr na min" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:SingleWriter" Type="Str">True</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!H)Q!!!"5!A!!!!!!"!!N!"!!&amp;37ZU.D1!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Vr obr na min" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!H)Q!!!"5!A!!!!!!"!!N!"!!&amp;37ZU.D1!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Orientacja theta.vi" Type="VI" URL="../Orientacja theta.vi"/>
+	<Item Name="w - prękdość kątowa.vi" Type="VI" URL="../Zmienne/w - prękdość kątowa.vi"/>
 </Library>

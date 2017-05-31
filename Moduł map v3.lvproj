@@ -1,22 +1,22 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
-	<Property Name="varPersistentID:{139A9B29-E908-4EAE-B37B-312DCC1BCE2A}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Vr obr na min</Property>
-	<Property Name="varPersistentID:{4B91F628-DFF2-430E-A882-DF529188AD79}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Pozycja X</Property>
-	<Property Name="varPersistentID:{66BA4A31-510D-4653-BDBE-42006CA6C440}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/longitude.longitude (deg)</Property>
-	<Property Name="varPersistentID:{9231B417-36C9-4C23-A0D1-88BDBB681B74}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Orientacja Z</Property>
-	<Property Name="varPersistentID:{989FC27D-DEBC-4B82-A70D-8D75C808520D}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/latitude.latitude (deg)</Property>
-	<Property Name="varPersistentID:{A29F66B6-33BA-48D9-BC7C-FD520D352D31}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Vl obr na min</Property>
-	<Property Name="varPersistentID:{BC6C780D-B002-4FE7-A48F-9D8B5531863D}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Pozycja Y</Property>
+	<Property Name="varPersistentID:{9CE1F384-10C8-4E02-98B2-E405D3F10AEC}" Type="Ref">/My Computer/Predkosci robota.lvlib/V_postepowa</Property>
+	<Property Name="varPersistentID:{D169F6F5-5C47-4CA4-B45C-CC3C29A5A65E}" Type="Ref">/My Computer/Predkosci robota.lvlib/w-obrotowa</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="CCSymbols" Type="Str"></Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.acl" Type="Str">0800000008000000</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
 		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.vi.access" Type="Str"></Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ROS" Type="Folder">
 			<Item Name="Gobal for ROS.vi" Type="VI" URL="../Gobal for ROS.vi"/>
@@ -24,11 +24,14 @@
 			<Item Name="rosbridge.vi" Type="VI" URL="../rosbridge.vi"/>
 		</Item>
 		<Item Name="Biblioteka moduł map v3.lvlib" Type="Library" URL="../Biblioteka moduł map v3.lvlib"/>
-		<Item Name="Main modul map v3 GPS + kinematyka.vi" Type="VI" URL="../Main modul map v3 GPS + kinematyka.vi"/>
 		<Item Name="Zapis danych do pliku txt.vi" Type="VI" URL="../Pomocnicze/Zapis danych do pliku txt.vi"/>
-		<Item Name="Aktualizacja położenia i azymutu robota po kinematyce.vi" Type="VI" URL="../Pomocnicze/Aktualizacja położenia i azymutu robota po kinematyce.vi"/>
 		<Item Name="generator współrzędnych GPS.vi" Type="VI" URL="../Pliki testowe/generator współrzędnych GPS.vi"/>
 		<Item Name="Main modul map v3 GPS + kinematyka 2.vi" Type="VI" URL="../Main modul map v3 GPS + kinematyka 2.vi"/>
+		<Item Name="Regulator.vi" Type="VI" URL="../Regulator.vi"/>
+		<Item Name="Dodanie wskazanego punktu z listy współrzędnych do mapy 2 optymalizowane.vi" Type="VI" URL="../Obsługa grafiki mapy/Dodanie wskazanego punktu z listy współrzędnych do mapy 2 optymalizowane.vi"/>
+		<Item Name="Symulowane dane z robota.vi" Type="VI" URL="../../Mapy_pustynia/google/Symulowane dane z robota.vi"/>
+		<Item Name="set to range.vi" Type="VI" URL="../Matematyczne/set to range.vi"/>
+		<Item Name="Predkosci robota.lvlib" Type="Library" URL="../Predkosci robota.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -117,11 +120,9 @@
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="szablon odometry_filtered_local.ctl" Type="VI" URL="/E/szablon odometry_filtered_local.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

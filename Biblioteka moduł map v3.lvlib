@@ -11,5 +11,5 @@
 	<Item Name="Obsługa grafiki mapy.lvlib" Type="Library" URL="../Obsługa grafiki mapy/Obsługa grafiki mapy.lvlib"/>
 	<Item Name="Obsługa listy współrzędnych.lvlib" Type="Library" URL="../Obsługa listy współrzędnych/Obsługa listy współrzędnych.lvlib"/>
 	<Item Name="Pomocnicze.lvlib" Type="Library" URL="../Pomocnicze/Pomocnicze.lvlib"/>
-	<Item Name="Zmienne współdzielone moduł offline.lvlib" Type="Library" URL="../Zmienne współdzielone moduł offline.lvlib"/>
+	<Item Name="Zmienne globalne.lvlib" Type="Library" URL="../Zmienne globalne.lvlib"/>
 </Library>
