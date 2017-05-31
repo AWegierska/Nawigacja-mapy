@@ -17,6 +17,7 @@
 	<Item Name="Rysowanie skali mapy.vi" Type="VI" URL="../Rysowanie skali mapy.vi"/>
 	<Item Name="Rysowanie znacznika.vi" Type="VI" URL="../Rysowanie znacznika.vi"/>
 	<Item Name="Ustawienie ostatniego położenia na podstawie odległości od punktu startowego.vi" Type="VI" URL="../Ustawienie ostatniego położenia na podstawie odległości od punktu startowego.vi"/>
+	<Item Name="w zakresie mapy.vi" Type="VI" URL="../w zakresie mapy.vi"/>
 	<Item Name="Wgrywanie mapy terenu.vi" Type="VI" URL="../Wgrywanie mapy terenu.vi"/>
 	<Item Name="Zmiana ustawienia położenia startowego po zmianie rozmiaru mapy.vi" Type="VI" URL="../Zmiana ustawienia położenia startowego po zmianie rozmiaru mapy.vi"/>
 </Library>

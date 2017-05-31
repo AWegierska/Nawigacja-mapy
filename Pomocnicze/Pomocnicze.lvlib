@@ -7,6 +7,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Aktualizacja ostatniego zaznaczonego położenia na mapie.vi" Type="VI" URL="../Aktualizacja ostatniego zaznaczonego położenia na mapie.vi"/>
+	<Item Name="Aktualizacja położenia i azymutu robota po kinematyce.vi" Type="VI" URL="../Aktualizacja położenia i azymutu robota po kinematyce.vi"/>
 	<Item Name="Dodanie zaznaczonego punktu na podstawie odległości.vi" Type="VI" URL="../Dodanie zaznaczonego punktu na podstawie odległości.vi"/>
 	<Item Name="Dodawanie położeń robota do mapy.vi" Type="VI" URL="../Dodawanie położeń robota do mapy.vi"/>
 	<Item Name="dorysowanie trasy mapy.vi" Type="VI" URL="../dorysowanie trasy mapy.vi"/>
