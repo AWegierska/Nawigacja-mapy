@@ -1,9 +1,12 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
 	<Property Name="varPersistentID:{139A9B29-E908-4EAE-B37B-312DCC1BCE2A}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Vr obr na min</Property>
+	<Property Name="varPersistentID:{4B91F628-DFF2-430E-A882-DF529188AD79}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Pozycja X</Property>
 	<Property Name="varPersistentID:{66BA4A31-510D-4653-BDBE-42006CA6C440}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/longitude.longitude (deg)</Property>
+	<Property Name="varPersistentID:{9231B417-36C9-4C23-A0D1-88BDBB681B74}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Orientacja Z</Property>
 	<Property Name="varPersistentID:{989FC27D-DEBC-4B82-A70D-8D75C808520D}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/latitude.latitude (deg)</Property>
 	<Property Name="varPersistentID:{A29F66B6-33BA-48D9-BC7C-FD520D352D31}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Vl obr na min</Property>
+	<Property Name="varPersistentID:{BC6C780D-B002-4FE7-A48F-9D8B5531863D}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Pozycja Y</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -118,6 +121,7 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="szablon odometry_filtered_local.ctl" Type="VI" URL="/E/szablon odometry_filtered_local.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
