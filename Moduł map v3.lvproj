@@ -1,7 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
+	<Property Name="varPersistentID:{139A9B29-E908-4EAE-B37B-312DCC1BCE2A}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Vr obr na min</Property>
 	<Property Name="varPersistentID:{66BA4A31-510D-4653-BDBE-42006CA6C440}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/longitude.longitude (deg)</Property>
 	<Property Name="varPersistentID:{989FC27D-DEBC-4B82-A70D-8D75C808520D}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/latitude.latitude (deg)</Property>
+	<Property Name="varPersistentID:{A29F66B6-33BA-48D9-BC7C-FD520D352D31}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne współdzielone moduł offline.lvlib/Vl obr na min</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -19,8 +21,11 @@
 			<Item Name="rosbridge.vi" Type="VI" URL="../rosbridge.vi"/>
 		</Item>
 		<Item Name="Biblioteka moduł map v3.lvlib" Type="Library" URL="../Biblioteka moduł map v3.lvlib"/>
-		<Item Name="generator współrzędnych GPS.vi" Type="VI" URL="../Pliki testowe/generator współrzędnych GPS.vi"/>
 		<Item Name="Main modul map v3 GPS + kinematyka.vi" Type="VI" URL="../Main modul map v3 GPS + kinematyka.vi"/>
+		<Item Name="Zapis danych do pliku txt.vi" Type="VI" URL="../Pomocnicze/Zapis danych do pliku txt.vi"/>
+		<Item Name="Aktualizacja położenia i azymutu robota po kinematyce.vi" Type="VI" URL="../Pomocnicze/Aktualizacja położenia i azymutu robota po kinematyce.vi"/>
+		<Item Name="generator współrzędnych GPS.vi" Type="VI" URL="../Pliki testowe/generator współrzędnych GPS.vi"/>
+		<Item Name="Main modul map v3 GPS + kinematyka 2.vi" Type="VI" URL="../Main modul map v3 GPS + kinematyka 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -66,7 +71,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVMouseTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMouseTypeDef.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
-				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Map Setup.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Setup.vi"/>
 				<Item Name="Map Value to Pixel.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Value to Pixel.vi"/>
@@ -91,7 +95,6 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -111,6 +114,8 @@
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
