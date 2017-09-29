@@ -6,10 +6,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Położenie robota z uwzględnieniem jego ewentualnej zmiany.vi" Type="VI" URL="../Położenie robota z uwzględnieniem jego ewentualnej zmiany.vi"/>
 	<Item Name="Przeliczanie azymutu na kąt i redukcja zakresu stopni.vi" Type="VI" URL="../Przeliczanie azymutu na kąt i redukcja zakresu stopni.vi"/>
 	<Item Name="Przeliczanie kąta na azymut.vi" Type="VI" URL="../Przeliczanie kąta na azymut.vi"/>
 	<Item Name="Różnica azymutów sprowadzona do zakresu +-180 stopni.vi" Type="VI" URL="../Różnica azymutów sprowadzona do zakresu +-180 stopni.vi"/>
+	<Item Name="set to range.vi" Type="VI" URL="../set to range.vi"/>
 	<Item Name="Wyliczanie odległości pomiędzy dwoma punktami.vi" Type="VI" URL="../Wyliczanie odległości pomiędzy dwoma punktami.vi"/>
 	<Item Name="Wyznaczanie odległości pomiędzy dwoma współrzędnymi geograficznymi.vi" Type="VI" URL="../Wyznaczanie odległości pomiędzy dwoma współrzędnymi geograficznymi.vi"/>
 	<Item Name="Wyznaczenie azymutu jaki należy obrać by dotrzeć do zadanego punktu.vi" Type="VI" URL="../Wyznaczenie azymutu jaki należy obrać by dotrzeć do zadanego punktu.vi"/>

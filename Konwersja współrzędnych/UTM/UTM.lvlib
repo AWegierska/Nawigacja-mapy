@@ -8,12 +8,12 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Konwersja na UTM.lvlib" Type="Library" URL="../Konwersja na UTM/Konwersja na UTM.lvlib"/>
-	<Item Name="Konwersja z UTM na wsp geograficzne.lvlib" Type="Library" URL="../Z UTM na geograficzne/Konwersja z UTM na wsp geograficzne.lvlib"/>
-	<Item Name="współrzedne geograficzne na UTM.vi" Type="VI" URL="../Konwersja na UTM/współrzedne geograficzne na UTM.vi"/>
+	<Item Name="Konwersja z UTM na wsp geograficzne.lvlib" Type="Library" URL="../Konwersja z UTM na współrzędne geograficzne/Konwersja z UTM na wsp geograficzne.lvlib"/>
+	<Item Name="współrzedne geograficzne na UTM.vi" Type="VI" URL="../współrzedne geograficzne na UTM.vi"/>
+	<Item Name="UTM na współrzędne dziesiętne.vi" Type="VI" URL="../UTM na współrzędne dziesiętne.vi"/>
+	<Item Name="Czy nowa wartość współrzędnych.vi" Type="VI" URL="../Czy nowa wartość współrzędnych.vi"/>
 	<Item Name="e^2.vi" Type="VI" URL="../e^2.vi"/>
 	<Item Name="promień_krzywizny.vi" Type="VI" URL="../promień_krzywizny.vi"/>
 	<Item Name="promień_krzywizny_pionowy.vi" Type="VI" URL="../promień_krzywizny_pionowy.vi"/>
-	<Item Name="Czy nowa wartość współrzędnych.vi" Type="VI" URL="../Czy nowa wartość współrzędnych.vi"/>
-	<Item Name="UTM na współrzędne dziesiętne.vi" Type="VI" URL="../UTM na współrzędne dziesiętne.vi"/>
 	<Item Name="Wyznaczanie promienia krzywizny (parametr c).vi" Type="VI" URL="../Wyznaczanie promienia krzywizny (parametr c).vi"/>
 </Library>

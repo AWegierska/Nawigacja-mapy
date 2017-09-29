@@ -4,12 +4,16 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Aktualizacja położenia i orientacji z odczytu GPS.vi" Type="VI" URL="../Pliki robota/Aktualizacja położenia i orientacji z odczytu GPS.vi"/>
-	<Item Name="Kinematyka prosta.vi" Type="VI" URL="../Pliki robota/Kinematyka prosta.vi"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Generatory_symulatory.lvlib" Type="Library" URL="../Testowe/Generatory_symulatory.lvlib"/>
+	<Item Name="Kontrolki.lvlib" Type="Library" URL="../Kontrolki/Kontrolki.lvlib"/>
 	<Item Name="Konwersja wsp.lvlib" Type="Library" URL="../Konwersja współrzędnych/Konwersja wsp.lvlib"/>
 	<Item Name="Matematyczne.lvlib" Type="Library" URL="../Matematyczne/Matematyczne.lvlib"/>
 	<Item Name="Obsługa grafiki mapy.lvlib" Type="Library" URL="../Obsługa grafiki mapy/Obsługa grafiki mapy.lvlib"/>
 	<Item Name="Obsługa listy współrzędnych.lvlib" Type="Library" URL="../Obsługa listy współrzędnych/Obsługa listy współrzędnych.lvlib"/>
 	<Item Name="Pomocnicze.lvlib" Type="Library" URL="../Pomocnicze/Pomocnicze.lvlib"/>
-	<Item Name="Zmienne globalne.lvlib" Type="Library" URL="../Zmienne globalne.lvlib"/>
+	<Item Name="Zmienne.lvlib" Type="Library" URL="../Zmienne/Zmienne.lvlib"/>
+	<Item Name="ROS.lvlib" Type="Library" URL="../ROS/ROS.lvlib"/>
+	<Item Name="KML.lvlib" Type="Library" URL="../KML/KML.lvlib"/>
+	<Item Name="task erl.lvlib" Type="Library" URL="../TASK ERL/task erl.lvlib"/>
 </Library>

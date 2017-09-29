@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
-	<Property Name="varPersistentID:{9CE1F384-10C8-4E02-98B2-E405D3F10AEC}" Type="Ref">/My Computer/Predkosci robota.lvlib/V_postepowa</Property>
-	<Property Name="varPersistentID:{D169F6F5-5C47-4CA4-B45C-CC3C29A5A65E}" Type="Ref">/My Computer/Predkosci robota.lvlib/w-obrotowa</Property>
+	<Property Name="varPersistentID:{9CE1F384-10C8-4E02-98B2-E405D3F10AEC}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne.lvlib/Predkosci robota.lvlib/V_postepowa</Property>
+	<Property Name="varPersistentID:{D169F6F5-5C47-4CA4-B45C-CC3C29A5A65E}" Type="Ref">/My Computer/Biblioteka moduł map v3.lvlib/Zmienne.lvlib/Predkosci robota.lvlib/w-obrotowa</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="CCSymbols" Type="Str"></Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -18,20 +18,11 @@
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="ROS" Type="Folder">
-			<Item Name="Gobal for ROS.vi" Type="VI" URL="../Gobal for ROS.vi"/>
-			<Item Name="ROSBRIDGE TCP READ.vi" Type="VI" URL="../ROSBRIDGE TCP READ.vi"/>
-			<Item Name="rosbridge.vi" Type="VI" URL="../rosbridge.vi"/>
-		</Item>
 		<Item Name="Biblioteka moduł map v3.lvlib" Type="Library" URL="../Biblioteka moduł map v3.lvlib"/>
-		<Item Name="Zapis danych do pliku txt.vi" Type="VI" URL="../Pomocnicze/Zapis danych do pliku txt.vi"/>
-		<Item Name="generator współrzędnych GPS.vi" Type="VI" URL="../Pliki testowe/generator współrzędnych GPS.vi"/>
 		<Item Name="Main modul map v3 GPS + kinematyka 2.vi" Type="VI" URL="../Main modul map v3 GPS + kinematyka 2.vi"/>
-		<Item Name="Regulator.vi" Type="VI" URL="../Regulator.vi"/>
-		<Item Name="Dodanie wskazanego punktu z listy współrzędnych do mapy 2 optymalizowane.vi" Type="VI" URL="../Obsługa grafiki mapy/Dodanie wskazanego punktu z listy współrzędnych do mapy 2 optymalizowane.vi"/>
-		<Item Name="Symulowane dane z robota.vi" Type="VI" URL="../../Mapy_pustynia/google/Symulowane dane z robota.vi"/>
-		<Item Name="set to range.vi" Type="VI" URL="../Matematyczne/set to range.vi"/>
-		<Item Name="Predkosci robota.lvlib" Type="Library" URL="../Predkosci robota.lvlib"/>
+		<Item Name="Task.vi" Type="VI" URL="../Task.vi"/>
+		<Item Name="ros data.vi" Type="VI" URL="../ROS/ros data.vi"/>
+		<Item Name="Zapis tabeli do pliku.vi" Type="VI" URL="../Zapis tabeli do pliku.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -109,7 +100,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
-				<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/Intelligent Energy/WebSockets API/WebSockets/WebSockets.lvlib"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
@@ -121,9 +111,14 @@
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
+				<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/Intelligent Energy/WebSockets API/WebSockets/WebSockets.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Q to Euler.vi" Type="VI" URL="../Q to Euler.vi"/>
+			<Item Name="współrzedne geograficzne na UTM.vi" Type="VI" URL="../Konwersja współrzędnych/UTM/Konwersja na UTM/współrzedne geograficzne na UTM.vi"/>
+			<Item Name="Położenie robota z uwzględnieniem jego ewentualnej zmiany.vi" Type="VI" URL="../Matematyczne/Położenie robota z uwzględnieniem jego ewentualnej zmiany.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

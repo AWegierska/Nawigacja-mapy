@@ -8,15 +8,25 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Aktualizacja ostatniego zaznaczonego położenia na mapie.vi" Type="VI" URL="../Aktualizacja ostatniego zaznaczonego położenia na mapie.vi"/>
 	<Item Name="Aktualizacja położenia i azymutu robota po kinematyce.vi" Type="VI" URL="../Aktualizacja położenia i azymutu robota po kinematyce.vi"/>
+	<Item Name="Aktualizacja położenia i orientacji z odczytu GPS.vi" Type="VI" URL="../../Pliki robota/Aktualizacja położenia i orientacji z odczytu GPS.vi"/>
+	<Item Name="Analiza położeń robotów.vi" Type="VI" URL="../Analiza położeń robotów.vi"/>
+	<Item Name="Dodanie położeń robotów do mapy.vi" Type="VI" URL="../Dodanie położeń robotów do mapy.vi"/>
 	<Item Name="Dodanie zaznaczonego punktu na podstawie odległości.vi" Type="VI" URL="../Dodanie zaznaczonego punktu na podstawie odległości.vi"/>
 	<Item Name="Dodawanie położeń robota do mapy.vi" Type="VI" URL="../Dodawanie położeń robota do mapy.vi"/>
 	<Item Name="dorysowanie trasy mapy.vi" Type="VI" URL="../dorysowanie trasy mapy.vi"/>
+	<Item Name="Odczyt azymutu z odometrii.vi" Type="VI" URL="../../Dane z robota/Odczyt azymutu z odometrii.vi"/>
+	<Item Name="Odległośc pomiędzy wybranymi robotami.vi" Type="VI" URL="../Odległośc pomiędzy wybranymi robotami.vi"/>
 	<Item Name="Ograniczenie zadanej predkości.vi" Type="VI" URL="../Ograniczenie zadanej predkości.vi"/>
 	<Item Name="Pobranie odległości do punktu docelowego z listy współrzędnych.vi" Type="VI" URL="../Pobranie odległości do punktu docelowego z listy współrzędnych.vi"/>
+	<Item Name="Regulator.vi" Type="VI" URL="../../Regulator.vi"/>
 	<Item Name="Sprawdzenie czy robot znajduje się w zadanym promieniu od wskazanego punktu.vi" Type="VI" URL="../Sprawdzenie czy robot znajduje się w zadanym promieniu od wskazanego punktu.vi"/>
 	<Item Name="Ustalenie nowego przesunięcia mapy po mose down-up.vi" Type="VI" URL="../Ustalenie nowego przesunięcia mapy po mose down-up.vi"/>
+	<Item Name="Ustawienie startu względem punktu o znanych współrzędnych.vi" Type="VI" URL="../../Obsługa grafiki mapy/Ustawienie startu względem punktu o znanych współrzędnych.vi"/>
 	<Item Name="Wyznaczanie prędkości kół i odległości do punktu docelowego.vi" Type="VI" URL="../Wyznaczanie prędkości kół i odległości do punktu docelowego.vi"/>
+	<Item Name="Wyznaczenie azymutu na podstawie współrzędnych geograficznych.vi" Type="VI" URL="../Wyznaczenie azymutu na podstawie współrzędnych geograficznych.vi"/>
+	<Item Name="Wyznaczenie odległości robota od bazy na podstawie współrzędnych inne roboty.vi" Type="VI" URL="../Wyznaczenie odległości robota od bazy na podstawie współrzędnych inne roboty.vi"/>
 	<Item Name="Wyznaczenie odległości robota od sartu na podstawie współrzędnych.vi" Type="VI" URL="../Wyznaczenie odległości robota od sartu na podstawie współrzędnych.vi"/>
 	<Item Name="zakres wprowadzanego pixela do 1400 pixeli od startu.vi" Type="VI" URL="../zakres wprowadzanego pixela do 1400 pixeli od startu.vi"/>
-	<Item Name="Zatwierdzenie ustalonego zakresu.vi" Type="VI" URL="../Zatwierdzenie ustalonego zakresu.vi"/>
+	<Item Name="Zapis danych do pliku txt.vi" Type="VI" URL="../Zapis danych do pliku txt.vi"/>
+	<Item Name="Zatwierdzenie ustalonego zakresu.vi" Type="VI" URL="../../../Pliki moduł map off-line 2015/Pomocnicze/Zatwierdzenie ustalonego zakresu.vi"/>
 </Library>
